@@ -10,6 +10,8 @@ public final class ZHealth extends JavaPlugin {
         getLogger().info("zHealth Enabled v1.0");
         getCommand("sethealth").setExecutor(new setHealth());
         getCommand("sethunger").setExecutor(new setHunger());
+        getCommand("showhealth").setExecutor(new ShowHealth());
+        getCommand("showhunger").setExecutor(new ShowHunger());
 
     }
 

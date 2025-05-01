@@ -5,11 +5,21 @@ api-version: '1.20'
 
 commands:
   sethealth:
-    description: Set the Player's Health
+    description: Sets the Player's Health
     usage: /sethealth <player> <health>
     permission: zhealth.sethealth
 
   sethunger:
-    description: Set the Player's Hunger
+    description: Sets the Player's Hunger
     usage: /sethunger <player> <hunger>
     permission: zhealth.sethunger
+
+  showhealth:
+    description: Shows the Player's Health
+    usage: /showhealth <player>
+    permission: zhealth.showhealth
+
+  showhunger:
+    description: Shows the Player's Hunger
+    usage: /showhunger <player>
+    permission: zhealth.showhunger
