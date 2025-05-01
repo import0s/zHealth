@@ -7,7 +7,9 @@ public final class ZHealth extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getLogger().info("zHealth Enalbled v1.0");
+        getLogger().info("zHealth Enabled v1.0");
+        getCommand("sethealth").setExecutor(new setHealth());
+        getCommand("sethunger").setExecutor(new setHunger());
 
     }
 
