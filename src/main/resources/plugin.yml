@@ -14,12 +14,12 @@ commands:
     usage: /sethunger <player> <hunger>
     permission: zhealth.sethunger
 
-  showhealth:
+  health:
     description: Shows the Player's Health
-    usage: /showhealth <player>
+    usage: /health <player>
     permission: zhealth.showhealth
 
-  showhunger:
+  hunger:
     description: Shows the Player's Hunger
-    usage: /showhunger <player>
+    usage: /hunger <player>
     permission: zhealth.showhunger
