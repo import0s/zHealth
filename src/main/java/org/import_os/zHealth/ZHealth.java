@@ -10,7 +10,7 @@ public final class ZHealth extends JavaPlugin {
 
         long start = System.nanoTime();
         getLogger().info("zHealth Enabled v1.0");
-        getLogger().info("For any problem open an issue on the plugin GitHub repository page");
+        getLogger().info("For any problem open an issue on GitHub");
         getCommand("sethealth").setExecutor(new setHealth());
         getCommand("sethunger").setExecutor(new setHunger());
         getCommand("health").setExecutor(new ShowHealth());
