@@ -17,9 +17,9 @@ commands:
   health:
     description: Shows the Player's Health
     usage: /health <player>
-    permission: zhealth.showhealth
+    permission: zhealth.health
 
   hunger:
     description: Shows the Player's Hunger
     usage: /hunger <player>
-    permission: zhealth.showhunger
+    permission: zhealth.hunger
