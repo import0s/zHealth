@@ -1,5 +1,5 @@
 name: zHealth
-version: '1.0-SNAPSHOT'
+version: '1.0'
 main: org.import_os.zHealth.ZHealth
 api-version: '1.20'
 
