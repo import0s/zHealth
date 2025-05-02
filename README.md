@@ -2,7 +2,7 @@
 
 zHealth is a simple Minecraft plugin that manages the players' health and hunger.
 
-**Supported Verion: 1.20.1**
+**Supported Version: 1.20.1**
 
 **Commands List**
 
