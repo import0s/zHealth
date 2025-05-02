@@ -19,13 +19,17 @@ public class setHealth implements CommandExecutor {
             return true;
         }
         double health = Double.parseDouble(args[1]);
-        if (health < 0 || health >player.getMaxHealth()) {
+        if (health < 0 || health > player.getMaxHealth()) {
             sender.sendMessage(ChatColor.RED + "The health value must be between 0 and " + player.getMaxHealth());
+            return true;
+        }
+        if (!args[2].matches("\\\\d+(\\\\.\\\\d+)?")) {
+            sender.sendMessage(ChatColor.RED + "Usage: /sethealth <player> <hunger>");
             return true;
         }
 
         player.setHealth(health);
-        sender.sendMessage(ChatColor.GREEN + "The health of " + player.getName() + " has been set to " + health);
+        sender.sendMessage(ChatColor.GREEN + "The health of " + player.getName() + " has been set to " + String.format("%.2f", health));
 
         return true;
     }
