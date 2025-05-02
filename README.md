@@ -20,9 +20,9 @@ zHealth is a simple Minecraft plugin that manages the players' health and hunger
 
 - zhealth.sethunger
 
-- zhealth.showhealth
+- zhealth.health
 
-- zhealth.showhunger
+- zhealth.hunger
 
 You can use a plugin like LuckPerms to manage the plugin permissions.
 
