@@ -24,10 +24,6 @@ public class setHunger implements CommandExecutor {
             sender.sendMessage(ChatColor.RED + "The Food level value must be between 0 and 20");
             return true;
         }
-        if (args[2].matches("\\d+")) {
-            sender.sendMessage(ChatColor.RED + "Usage: /sethunger <player> <hunger>");
-            return true;
-        }
 
         player.setFoodLevel(hunger);
         sender.sendMessage(ChatColor.GREEN + "The Food level of " + player.getName() + " has been set to " + hunger);
