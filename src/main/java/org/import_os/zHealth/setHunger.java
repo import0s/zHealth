@@ -21,12 +21,12 @@ public class setHunger implements CommandExecutor {
         }
         int hunger = Integer.parseInt(args[1]);
         if (hunger < 0 || hunger > 20) {
-            sender.sendMessage(ChatColor.RED + "The health value must be between 0 and 20");
+            sender.sendMessage(ChatColor.RED + "The Food level value must be between 0 and 20");
             return true;
         }
 
         player.setFoodLevel(hunger);
-        sender.sendMessage(ChatColor.GREEN + "The health of " + player.getName() + " has been set to " + hunger);
+        sender.sendMessage(ChatColor.GREEN + "The Food level of " + player.getName() + " has been set to " + hunger);
 
         return true;
     }
