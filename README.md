@@ -37,6 +37,8 @@ To build the plugin, you must have JDK 17 or a higher version installed.
 2. Run this command on the plugin directory.
 - `mvn clean package`
 
+3. Take the zHealth.jar and put it in your Server's plugin directory.
+
 # Support
 
 For support, feel free to contact me on [Discord](https://discordapp.com/users/767473359352496188) or Telegram (@import_0s).
