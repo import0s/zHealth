@@ -25,7 +25,7 @@ public class setHealth implements CommandExecutor {
         }
 
         player.setHealth(health);
-        sender.sendMessage(ChatColor.GREEN + "The health of " + player.getName() + " has been set to " + String.format("%.2f", health));
+        sender.sendMessage(ChatColor.GREEN + "The health of " + player.getName() + " has been set to " + Math.round(health));
 
         return true;
     }

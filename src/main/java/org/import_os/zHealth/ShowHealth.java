@@ -20,7 +20,7 @@ public class ShowHealth implements CommandExecutor {
             return true;
         }
 
-        sender.sendMessage(ChatColor.GREEN + "The health of " + player.getName() + " is " + player.getHealth());
+        sender.sendMessage(ChatColor.GREEN + "The health of " + player.getName() + " is " + Math.round(player.getHealth()));
 
         return true;
     }
