@@ -20,6 +20,11 @@ public class setHearts implements CommandExecutor {
             sender.sendMessage(ChatColor.RED + "Player not found");
             return true;
         }
+        if (hearts < 1 || hearts > 100) {
+            sender.sendMessage(ChatColor.RED + "The hearts value must be between 1 and 100");
+            return true;
+        }
+        
         int hearts;
         try {
             hearts = Integer.parseInt(args[1]);
