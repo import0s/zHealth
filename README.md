@@ -45,7 +45,7 @@ To build the plugin, you must have JDK 17 or a higher version installed.
 
 # Support
 
-For support, feel free to contact me on [Discord](https://discordapp.com/users/767473359352496188) or Telegram (@import_0s).
+For support, feel free to contact me on Telegram (@import_0s).
 
 If you want to report a bug, [open an issue](https://github.com/import0s/zHealth/issues).
 
