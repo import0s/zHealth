@@ -1,5 +1,5 @@
 name: zHealth
-version: '1.0.0'
+version: '1.1.0'
 main: org.import_os.zHealth.ZHealth
 api-version: '1.20'
 
@@ -23,3 +23,8 @@ commands:
     description: Shows the Player's Hunger
     usage: /hunger <player>
     permission: zhealth.hunger
+
+  setmaxhearts:
+    description: Sets the Player's max hearts
+    usage: /sethearts <player> <hearts>
+    permission: zhealth.sethearts

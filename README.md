@@ -10,6 +10,8 @@ zHealth is a simple Minecraft plugin that manages the players' health and hunger
 
 - /sethunger [player] [hunger] - Sets the Player's Food level
 
+- /sethearts [player] [hunger] - Sets the Player's max hearts
+
 - /health [player] - Shows the Player's Health
 
 - /hunger [player] - Shows the Player's Food level
@@ -19,6 +21,8 @@ zHealth is a simple Minecraft plugin that manages the players' health and hunger
 - zhealth.sethealth
 
 - zhealth.sethunger
+
+- zhealth.sethearts
 
 - zhealth.health
 

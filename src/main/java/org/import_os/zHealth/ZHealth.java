@@ -27,12 +27,13 @@ public final class ZHealth extends JavaPlugin {
         }
 
         long start = System.nanoTime();
-        getLogger().info("zHealth Enabled v1.0");
+        getLogger().info("zHealth Enabled v" + getDescription().getVersion());
         getLogger().info("For any problem open an issue on GitHub");
         getCommand("sethealth").setExecutor(new setHealth());
         getCommand("sethunger").setExecutor(new setHunger());
         getCommand("health").setExecutor(new ShowHealth());
         getCommand("hunger").setExecutor(new ShowHunger());
+        getCommand("sethearts").setExecutor(new setHearts());
 
         long end = System.nanoTime();
         getLogger().info("Plugin enabled in " + ((end - start) / 1_000_000) + "ms");
