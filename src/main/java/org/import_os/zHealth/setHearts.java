@@ -39,7 +39,7 @@ public class setHearts implements CommandExecutor {
         }
         player.setHealth(Math.min(maxhearts, player.getHealth()));
 
-        sender.sendMessage(org.bukkit.ChatColor.GREEN + "The Hearts amount of " + player.getName() + " has been set to " + maxhearts);
+        sender.sendMessage(org.bukkit.ChatColor.GREEN + "The Hearts amount of " + player.getName() + " has been set to " + (maxhearts / 2));
         return true;
     }
 }
