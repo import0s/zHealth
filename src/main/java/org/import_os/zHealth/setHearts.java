@@ -13,7 +13,7 @@ public class setHearts implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (args.length < 2) {
-            sender.sendMessage(ChatColor.RED + "Usage: /setmaxhearths <player> <hearts>");
+            sender.sendMessage(ChatColor.RED + "Usage: /sethearths <player> <hearts>");
         }
         Player player = Bukkit.getPlayer(args[0]);
         if (player == null) {
