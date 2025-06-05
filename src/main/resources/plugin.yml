@@ -24,7 +24,7 @@ commands:
     usage: /hunger <player>
     permission: zhealth.hunger
 
-  setmaxhearts:
+  sethearts:
     description: Sets the Player's max hearts
     usage: /sethearts <player> <hearts>
     permission: zhealth.sethearts
